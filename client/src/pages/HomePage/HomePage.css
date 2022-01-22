@@ -1,0 +1,17 @@
+.activ {
+    border-bottom: 2px solid maroon;
+}
+
+nav {
+    background-color: #d4e0f7;
+    
+}
+
+.nav-link {
+    color: rgb(55, 0, 60);
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid maroon;
+    color: rgb(55, 0, 60);
+}
