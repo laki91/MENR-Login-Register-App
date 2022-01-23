@@ -1,0 +1,24 @@
+.card-body {
+    border: 1px solid maroon;
+    border-radius: 10px;
+	background-color: #d1dad7;
+    width: 800px;
+
+}
+
+.post-h3 {
+    font-size: 28px;
+    color: maroon;
+}
+
+.postLink {
+    text-decoration: none;
+}
+
+p {
+    color: black;
+}
+
+.line {
+    border-right: 2px solid maroon;
+}

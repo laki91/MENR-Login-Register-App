@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
+import PostsList from '../../components/PostsList/PostsList';
 import { getUserData } from '../../service/auth-service';
 import './HomePage.css'
 
@@ -19,16 +20,21 @@ export default function HomePage({users, setUsers}) {
 
     return (
         <>
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light ">
             <ul className='navbar-nav navbar-brand ms-auto'>
-                <NavLink to='/' className='nav-link'>Home</NavLink>
-                <NavLink to='/' className='nav-link'>My Profile</NavLink>
-                <NavLink to='/' className='nav-link'>LogOut</NavLink>
+                <NavLink to='/profile' className='nav-link'>My Profile</NavLink>
             </ul>
         </nav> 
-
+ 
         <div className="container">
-            <h1>{users.firstName}</h1>
+            <h3 className='display-4 mb-3'>Welcome to blog </h3>
+            <div className="row">
+                <div className="col-10 offset-1">
+                    <div className="row">
+                        <PostsList users={users} />
+                    </div>
+                </div>
+            </div>
         </div>
         </>
     )

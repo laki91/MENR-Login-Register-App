@@ -31,8 +31,8 @@ export default function Login({ setUsers }) {
 
     return (
         <div className="container-fluid">
-            <div className="row">
-                <div className="col-8">
+            <div className="row rov">
+                <div className="col-8 log-right-col">
                     <form onSubmit={onLogin} className='form_container'>
                         <h1 className='form-h1'>Login to Your Account</h1>
                         <input type="email" placeholder='Email' 
@@ -48,7 +48,7 @@ export default function Login({ setUsers }) {
                         <button type="submit" className='signUpBtn'>Sing In</button>
                     </form>
                 </div>
-                <div className="col-4">
+                <div className="col-4 log-left-col">
                     <h1 className='left-h1'>New Here ?</h1>
                     <Link to={'/register'} >
                         <button className='signInBtn'>Sing Up</button>

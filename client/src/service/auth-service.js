@@ -16,3 +16,15 @@ export const getUserData = () => {
     let userData = localStorage.getItem('app_user_data');
     return userData ? JSON.parse(userData) : null
 }
+
+export const logOutApp = () => {
+    localStorage.removeItem('app_user_data')
+}
+
+export const addPost = (body) => {
+    return axios.post('/create', body)
+}
+
+export const deleteFromDb = (body) => {
+    axios.post('/delete', {id: body})
+}

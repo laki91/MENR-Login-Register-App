@@ -34,14 +34,14 @@ export default function Register() {
 
     return (
         <div className="container-fluid">
-            <div className="row">
-                <div className="col-4">
+            <div className="row rov">
+                <div className="col-4 left-col">
                     <h1 className='left-h1' >Welcome Back</h1>
                     <Link to='/'>
                         <button className='signInBtn'>Sign In</button>
                     </Link>
                 </div>
-                <div className="col-8">
+                <div className="col-8 right-col">
                     <form onSubmit={onRegister} className='form_container' >
                         <h1 className='form-h1' >Create Account</h1>
                         <input className='input'

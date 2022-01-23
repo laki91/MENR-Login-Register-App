@@ -1,17 +1,20 @@
-.activ {
-    border-bottom: 2px solid maroon;
-}
-
+/* 
 nav {
-    background-color: #d4e0f7;
+    background-color: rgb(55, 0, 60);
+    height: 51px;
     
 }
 
-.nav-link {
-    color: rgb(55, 0, 60);
+.link {
+    color: rgb(0, 255, 135);
+    text-decoration:  none;
+    margin-bottom: 10px;
 }
 
-.nav-link:hover {
-    border-bottom: 2px solid maroon;
-    color: rgb(55, 0, 60);
+
+.link:hover {
+    border-bottom: 2px solid rgb(0, 255, 135);
+    color: rgb(0, 255, 135);
 }
+
+ */
