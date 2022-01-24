@@ -37,7 +37,7 @@ export default function Profile({ users, setUsers }) {
         addPost(newPost)
         navigate('/home')
     }
-
+ 
     return (
         <>
             <nav className="navbar navbar-expand-lg  navbar-light bg-light ">

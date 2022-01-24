@@ -48,7 +48,7 @@ app.post('/login', (req, res) => {
                     _id: docs[0]._id
                 })
             }else{
-                res.send({message: 'Password did not match'})
+                res.send({message: 'Incorrect password'})
             }
         }else{
             res.send({message: 'User not registred'})

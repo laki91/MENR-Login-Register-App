@@ -27,7 +27,7 @@ export default function HomePage({users, setUsers}) {
         </nav> 
  
         <div className="container">
-            <h3 className='display-4 mb-3'>Welcome to blog </h3>
+            <h3 className='display-4 mb-3'>Welcome to Premier League blog </h3>
             <div className="row">
                 <div className="col-10 offset-1">
                     <div className="row">
