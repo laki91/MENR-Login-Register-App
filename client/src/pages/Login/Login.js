@@ -16,7 +16,7 @@ export default function Login({ setUsers }) {
             if(res.data.message === 'User not registred'){
                 alert(res.data.message)
             }
-            else if (res.data.message === 'Password did not match'){
+            else if (res.data.message === 'Incorrect password'){
                 alert(res.data.message)
             }
             else{
